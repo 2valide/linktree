@@ -4,11 +4,9 @@ import React from 'react';
 const Presentation = () => {
     return (
         <div className="intro">
-            <ul>
-                <li><a href="https://anthonyzhao.fr">PortFolio</a></li>
-                <li><a href="">GitHub</a></li>
-                <li><a href="">LinkdIn</a></li>
-            </ul>
+            <img src="" alt="" />
+            <h1>Anthony ZHAO</h1>
+            <p>Développeur web</p>
         </div>
     );
 };
