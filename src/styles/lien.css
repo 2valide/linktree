@@ -1,28 +1,47 @@
-lien-container {
-    height: 62px;
+#container {
+    height: 55px;
     width: 611px;
-    background-color: #000000;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid #000000;
 
+    box-shadow: rgb(0, 0, 0) 8px 8px 0px 0px;
+
+    margin-bottom: 20px;
 
 }
 
-lien-container img {
+#container:hover {
+    box-shadow: rgb(0, 0, 0) 4px 4px 0px 0px;
+    transform: translate(2px, 2px);
+    /* transition: 0.2s; */
+}
+
+.lien-container img {
     width: 48px;
     height: 48px;
     object-fit: cover;
     border-radius: 50%;
+
+    position: absolute;
+    translate: -278px;
 }
 
-lien-container p {
+.lien-container p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
     font-family: "capriola", sans-serif;
     margin: 0;
     padding: 0;
+
 }
 
 a {
     text-decoration: none;
-    background-color: #000000;
+    color: black;
+
 }
