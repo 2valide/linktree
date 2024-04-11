@@ -1,0 +1,28 @@
+lien-container {
+    height: 62px;
+    width: 611px;
+    background-color: #000000;
+
+
+}
+
+lien-container img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+lien-container p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: "capriola", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    background-color: #000000;
+}

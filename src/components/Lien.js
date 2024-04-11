@@ -1,15 +1,18 @@
 import React from 'react';
+import "../styles/lien.css";
 
-const Lien = () => {
+const Lien = ({src, alt, href, site}) => {
+
     return (
-        <div>
-            <ul>
-                <li><a href="https://anthonyzhao.fr">PortFolio</a></li>
-                <li><a href="">GitHub</a></li>
-                <li><a href="">LinkdIn</a></li>
-            </ul>
-        </div>
+        <a href={href}>
+            <div className="lien-container">
+                <img src={src} alt={alt} />
+                <p>{site}</p>
+            </div>
+        </a>
     );
 };
 
 export default Lien;
+
+
